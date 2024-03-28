@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+     #todos li button{
+        background-color: blueviolet;
+        color: rgb(246, 237, 237);
+     }
+    </style>
+    <script src="./binding task2.js"></script> 
+</head>
+<body>
+    <input type="text" id="myinput">
+    <button id="btnAdd"> Add To Do </button>
+    <ul id="todos">
+        <li>Banana <button  onclick="handleDelete(event)"> Delete</button></li>
+        <li>Apple <button  onclick="handleDelete(event)"> Delete</button></li>
+        <li>pineapple <button onclick="handleDelete(event)"> Delete</button></li>
+        <li>Fruitchat <button onclick="handleDelete(event)"> Delete</button></li>
+    </ul> 
+</body>
+</html>
